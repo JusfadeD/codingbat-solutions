@@ -13,7 +13,7 @@ public class evenOdd {
                 result[oddIndex--] = nums[i];
             }
         }
-        
+
         return result;
     }
 }
