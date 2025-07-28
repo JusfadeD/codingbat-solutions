@@ -11,7 +11,7 @@ public class maxSpan {
                     if (span > maxSpan) {
                         maxSpan = span;
                     }
-                    break; // no need to check earlier j's
+                    break;
                 }
             }
         }

@@ -1,13 +1,12 @@
 package array3;
 
-public class fix34 {
-    public int[] fix34(int[] nums) {
+public class fix45 {
+    public int[] fix45(int[] nums) {
         int j = 0;
 
         for (int i = 0; i < nums.length - 1; i++) {
-            if (nums[i] == 3 && nums[i + 1] != 4) {
-                // Find the next 4 not already placed after a 3
-                while (nums[j] != 4 || (j > 0 && nums[j - 1] == 3)) {
+            if (nums[i] == 4 && nums[i + 1] != 5) {
+                while (nums[j] != 5 || (j > 0 && nums[j - 1] == 4)) {
                     j++;
                 }
 
