@@ -19,6 +19,7 @@ public class splitOdd10 {
             return true;
         }
 
-        return fals
+        return false;
 
     }
+}
